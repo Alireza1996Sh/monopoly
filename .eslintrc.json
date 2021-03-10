@@ -11,6 +11,7 @@
     },
     "rules": {
         "prettier/prettier": ["error", { "endOfLine": "auto" }],
-        "indent": ["error", 4]
+        "indent": ["error", 4],
+        "func-names": "off"
     }
 }
