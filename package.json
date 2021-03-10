@@ -1,0 +1,23 @@
+{
+    "name": "monopoly",
+    "version": "0.0.0",
+    "description": "Monopoly is a board game currently published by Hasbro. In the game, players roll two six-sided dice to move around the game board, buying and trading properties, and developing them with houses and hotels. Players collect rent from their opponents, with the goal being to drive them into bankruptcy.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Alireza1996Sh/monopoly.git"
+    },
+    "keywords": [
+        "monopoly",
+        "game",
+        "board",
+        "online",
+        "multiplayer",
+        "rent"
+    ],
+    "author": "Alireza Shalforoosh",
+    "license": "ISC"
+}
