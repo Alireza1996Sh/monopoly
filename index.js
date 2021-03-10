@@ -1,4 +1,13 @@
 require('./config/checkEnv');
+const mongooseConnection = require('./config/mongoose');
 const app = require('./server');
 
-app.listen(app.get('port'), () => console.log(`server is listening to port ${app.get('port')}`));
+const start = async () => {
+    await mongooseConnection();
+    app.listen(app.get('port'), () =>
+        // eslint-disable-next-line
+        console.log(`server is listening to port ${app.get('port')}.`)
+    );
+};
+
+start();
