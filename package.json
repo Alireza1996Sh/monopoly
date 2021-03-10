@@ -4,6 +4,7 @@
     "description": "Monopoly is a board game currently published by Hasbro. In the game, players roll two six-sided dice to move around the game board, buying and trading properties, and developing them with houses and hotels. Players collect rent from their opponents, with the goal being to drive them into bankruptcy.",
     "main": "index.js",
     "scripts": {
+        "start": "node index.js",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix"
     },
@@ -21,6 +22,9 @@
     ],
     "author": "Alireza Shalforoosh",
     "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
     "devDependencies": {
         "eslint": "^7.21.0",
         "eslint-config-airbnb-base": "^14.2.1",
