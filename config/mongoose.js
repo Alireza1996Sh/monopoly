@@ -9,7 +9,7 @@ const mongooseConnection = async () => {
         autoIndex: true,
     });
 
-    // eslint-disable-next-line
+    // eslint-disable-next-line no-console
     console.log('mongoose connected successfully.');
 
     return connection;
