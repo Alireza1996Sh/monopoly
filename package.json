@@ -23,6 +23,7 @@
     "author": "Alireza Shalforoosh",
     "license": "ISC",
     "dependencies": {
+        "@hapi/boom": "^9.1.1",
         "check-types": "^11.1.2",
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
