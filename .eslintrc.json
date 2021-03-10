@@ -1,0 +1,19 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": ["airbnb-base", "eslint-config-prettier"],
+    "plugins": ["eslint-plugin-prettier"],
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+        "prettier/prettier": ["error", { "endOfLine": "auto" }],
+        "indent": ["error", 4],
+        "func-names": "off",
+        "no-param-reassign": "off",
+        "arrow-body-style": ["error", "always"]
+    }
+}
