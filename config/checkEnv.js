@@ -1,7 +1,6 @@
 require('dotenv').config();
+const check = require('check-types');
 
 const { PORT } = process.env;
 
-if (!PORT) {
-    throw new ReferenceError('env: "PORT" is required.');
-}
+check.assert.integer(PORT && +PORT);

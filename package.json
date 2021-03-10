@@ -23,6 +23,7 @@
     "author": "Alireza Shalforoosh",
     "license": "ISC",
     "dependencies": {
+        "check-types": "^11.1.2",
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
         "helmet": "^4.4.1",
