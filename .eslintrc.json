@@ -2,10 +2,11 @@
     "env": {
         "commonjs": true,
         "es2021": true,
-        "node": true
+        "node": true,
+        "jest/globals": true
     },
     "extends": ["airbnb-base", "eslint-config-prettier"],
-    "plugins": ["eslint-plugin-prettier"],
+    "plugins": ["eslint-plugin-prettier", "jest"],
     "parserOptions": {
         "ecmaVersion": 12
     },
