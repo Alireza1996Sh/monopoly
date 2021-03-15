@@ -1,8 +1,4 @@
-require(`../../config/checkEnv`);
-const supertest = require('supertest');
-const app = require('../../server');
-
-const request = supertest(app);
+const { request } = require('../../jest');
 
 describe('Route: /test', () => {
     it('It should always response the GET method', async () => {
